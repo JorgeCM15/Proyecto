@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+        <ImageView
+        android:id="@+id/Fondo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/fondo"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+            tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/tatto1"
+        android:layout_width="164dp"
+        android:layout_height="201dp"
+        app:srcCompat="@drawable/tatto1"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="81dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/menú_superior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/inf"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-20dp" />
+
+    <TextView
+        android:id="@+id/Para_ti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Para ti  "
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/Pupulares"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="|  Populares "
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="189dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/tatto2"
+        android:layout_width="168dp"
+        android:layout_height="208dp"
+        app:srcCompat="@drawable/tatto2"
+        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="81dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/tatto3"
+        android:layout_width="183dp"
+        android:layout_height="249dp"
+        app:srcCompat="@drawable/tatto3"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="309dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/tatto4"
+        android:layout_width="166dp"
+        android:layout_height="289dp"
+        app:srcCompat="@drawable/tatto4"
+        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="302dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/tatto5"
+        android:layout_width="169dp"
+        android:layout_height="274dp"
+        app:srcCompat="@drawable/tatto5"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="591dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <ImageView
+        android:id="@+id/tatto6"
+        android:layout_width="162dp"
+        android:layout_height="329dp"
+        app:srcCompat="@drawable/tatto6"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="610dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/menú_inferior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/inf"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="652dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/menú"
+        android:layout_width="46dp"
+        android:layout_height="53dp"
+        app:srcCompat="@drawable/menu"
+        tools:layout_editor_absoluteX="349dp"
+        tools:layout_editor_absoluteY="678dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
